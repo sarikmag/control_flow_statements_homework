@@ -24,5 +24,5 @@ def main(temp):
     if temp>30 and temp<41:
         return 'Hot'
     if temp>40:
-        return 'Very hot'
+        return 'Very Hot'
 print(main(-4))
