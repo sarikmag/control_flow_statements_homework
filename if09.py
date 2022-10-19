@@ -15,7 +15,7 @@ def main(a):
     x = a//10
     b = y + x
     if b<=a:
-        return 'True'
-    return 'False'
-print(main(21))
+        return True
+    return False
+print(main(53))
     
