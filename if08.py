@@ -14,7 +14,7 @@ def main(a):
     if a/10<10 and a/10>0:
         if a%2==0:
             return 'two-digit even number'
-        return 'two-digit odd numer'
+        return 'two-digit odd number'
     if a/100<10 and a/100>0:
         if a%2==0:
             return 'three-digit even number'
@@ -22,7 +22,7 @@ def main(a):
     if a/10>-10 and a/10<0:
         if a%2==0:
             return 'two-digit even number'
-        return 'two-digit odd numer'
+        return 'two-digit odd number'
     if a/100>-10 and a/100<0:
         if a%2==0:
             return 'three-digit even number'
