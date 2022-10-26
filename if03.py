@@ -11,7 +11,7 @@ def main(a):
         return a
     if (a==0):
         return 10
-    else:
-        a = a - 2
-        return a
+    
+    a = a - 2
+    return a
 print(main(-2))
