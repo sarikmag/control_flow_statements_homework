@@ -29,6 +29,6 @@ def main(a,b,c):
         neg+=1
     if neg>pos:
         return 'there are a lot of negative numbers'
-    else:
-        return 'there are a lot of positive numbers'
+    
+    return 'there are a lot of positive numbers'
 print(main(-2, 4, 1))
