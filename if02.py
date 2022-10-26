@@ -9,7 +9,6 @@ def main(a):
     if (a>0):
         a = a + 1
         return a 
-    else:
-        a = a - 2
-        return a 
+    a = a - 2
+    return a 
 print(main(-3))
